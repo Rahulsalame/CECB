@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+
+}
+section{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+section h1{
+    color: rgb(245, 242, 242);
+    text-align: center;
+    width: 100%;
+    font-size: 50px;
+    margin-bottom: 10px;
+
+}
+section p
+{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    margin-bottom: 40px;
+}
+.container{
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
+    justify-content: center;
+}
+.text p{
+    color: rgb(255, 255, 255);
+    text-align: left;
+    background-color: rgba(43, 41, 41, 0.762);
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.text p.reply{
+    text-align: right;
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Bot</title>
+
+    <link rel="stylesheet" href="chat.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body background="admin.jpeg" style="background-repeat:no-repeat; height:100%;width:100%;background-size:cover;">
+    <section>
+        <h1>COLLEGE <br>ENQUIRY CHATBOT</h1>
+        <p>KAVIKULGURU INSTITUTE OF TECHNOLOGY AND SCIENCE, RAMTEK</p>
+        <div class="container">
+            <div class="text">
+                <p></p>
+            </div>
+        </div>
+        <div class="row">
+            <a href="Speech.html" target="_blank">SPEECH RECOGNTION</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://kits.edu/" target="_blank">ABOUT</a>
+            <div class="details">
+                EMAIL: &nbsp;info@kits.edu &nbsp;&nbsp;&nbsp;
+                PHONE NO:&nbsp;(+91 7114 255309)
+            </div>
+        </div>
+    <!--IMAGE SLIDER -->
+    <section class="slides">
+        <div class="slider-wrapper">
+            <div class="slider">
+                <img src="techno.jpeg" id="slide-1">
+                <img src="hall.jpeg" id="slide-2" >
+                <img src="us.jpeg" id="slide-3" >
+                <img src="mam.jpeg" id="slide-4" >
+                <img src="flashmob.jpeg" id="slide-7" >
+                <img src="jukebox.jpeg" id="slide-6" >
+
+            </div>
+            <div class="slider-nav">
+                <a href="#slide-1"></a>
+                <a href="#slide-2"></a>
+                <a href="#slide-3"></a>
+                <a href="#slide-4"></a>
+                <a href="#slide-7"></a>
+                <a href="#slide-6"></a>
+            </div>
+        </div>
+    </section>
+
+    </section>
+    <!-- CHAT BAR BLOCK -->
+    <div class="chat-bar-collapsible">
+        <button id="chat-button" type="button" class="collapsible">CHAT WITH ZIYO..!
+            <i id="chat-icon" style="color: #ffffff;" class="fa fa-fw fa-comments-o"></i>
+        </button>
+
+        <div class="content">
+            <div class="full-chat-block">
+                <!-- Message Container -->
+                <div class="outer-container">
+                    <div class="chat-container">
+                        <!-- Messages -->
+                        <div id="chatbox">
+                            <h5 id="chat-timestamp"></h5>
+                            <p id="botStarterMessage" class="botText"><span>Loading...</span></p>
+                        </div>
+
+                        <!-- User input box -->
+                        <div class="chat-bar-input-block">
+                            <div id="userInput">
+                                <input id="textInput" class="input-box" type="text" name="msg"
+                                    placeholder="Tap 'Enter' to send a message">
+                                <p></p>
+                            </div>
+
+                            <div class="chat-bar-icons">
+                                <i id="chat-icon" style="color: crimson;" class="fa fa-fw fa-heart"
+                                    onclick="heartButton()"></i>
+                                <i id="chat-icon" style="color: #333;" class="fa fa-fw fa-send"
+                                    onclick="sendButton()"></i>
+                            </div>
+                        </div>
+
+                        <div id="chat-bar-bottom">
+                            <p></p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="responses.js"></script>
+<script src="chat.js"></script>
+<script src="https://app.wotnot.io/chat-widget/8BaCLk5jTEq3054715514617pB0BZsRT.js" defer></script>
+
+</html>
